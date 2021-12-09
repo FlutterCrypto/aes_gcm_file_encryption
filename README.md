@@ -16,7 +16,7 @@ flutter_file_dialog: ^2.3.0
 https://github.com/kineapps/flutter_file_dialog
 ```
 
-in build.gradle (application)
+in build.gradle (application) minSdkVersion 19
 ```plaintext
 defaultConfig {
     // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
@@ -27,7 +27,7 @@ defaultConfig {
     versionName flutterVersionName
     }
 ```
-in podfile:
+in podfile iOS minimum 10:
 ```plaintext
 # Uncomment this line to define a global platform for your project
 platform :ios, '10.0'
